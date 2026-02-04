@@ -4,7 +4,7 @@ import 'package:uis/widgets/sec_container.dart';
 import 'package:uis/widgets/third_container.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+  const HomeScreen();
 
   @override
   Widget build(BuildContext context) {

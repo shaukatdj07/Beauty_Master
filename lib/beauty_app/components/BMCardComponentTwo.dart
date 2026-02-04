@@ -1,8 +1,7 @@
-import 'package:beauty_master/main.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-
-import '../models/BMCommonCardModel.dart';
+import '../../main.dart';
+import '../model/BMCommonCardModel.dart';
 import '../utils/BMColors.dart';
 
 class BMCardComponentTwo extends StatefulWidget {

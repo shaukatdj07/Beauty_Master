@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-
-import '../models/BMMasterModel.dart';
+import '../model/BMMasterModel.dart';
 import '../screens/BMTopOffersScreen.dart';
 import '../utils/BMDataGenerator.dart';
 

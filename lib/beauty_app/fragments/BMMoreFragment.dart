@@ -1,12 +1,11 @@
-import 'package:beauty_master/utils/BMConstants.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-
-import '../main.dart';
+import '../../main.dart';
 import '../screens/BMFavouritesScreen.dart';
 import '../screens/BMShoppingScreen.dart';
 import '../utils/BMBottomSheet.dart';
 import '../utils/BMColors.dart';
+import '../utils/BMConstants.dart';
 import '../utils/BMWidgets.dart';
 import 'BMAppointmentFragment.dart';
 

@@ -1,12 +1,12 @@
-import 'package:beauty_master/components/BMShopComponent.dart';
-import 'package:beauty_master/screens/BMPurchaseMoreScreen.dart';
-import 'package:beauty_master/utils/BMDataGenerator.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-
-import '../main.dart';
+import 'package:uis/beauty_app/model/BMShoppingModel.dart';
+import '../../main.dart';
+import '../components/BMShopComponent.dart';
 import '../utils/BMColors.dart';
+import '../utils/BMDataGenerator.dart';
 import '../utils/BMWidgets.dart';
+import 'BMPurchaseMoreScreen.dart';
 
 class BMShoppingScreen extends StatefulWidget {
   bool isOrders;
@@ -24,7 +24,9 @@ class _BMShoppingScreenState extends State<BMShoppingScreen> {
 
   @override
   void initState() {
-    setStatusBarColor(appStore.isDarkModeOn ? appStore.scaffoldBackground! : bmLightScaffoldBackgroundColor);
+    setStatusBarColor(appStore.isDarkModeOn
+        ? appStore.scaffoldBackground!
+        : bmLightScaffoldBackgroundColor);
     super.initState();
   }
 
@@ -37,9 +39,13 @@ class _BMShoppingScreenState extends State<BMShoppingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: appStore.isDarkModeOn ? appStore.scaffoldBackground! : bmLightScaffoldBackgroundColor,
+      backgroundColor: appStore.isDarkModeOn
+          ? appStore.scaffoldBackground!
+          : bmLightScaffoldBackgroundColor,
       appBar: AppBar(
-        backgroundColor: appStore.isDarkModeOn ? appStore.scaffoldBackground! : bmLightScaffoldBackgroundColor,
+        backgroundColor: appStore.isDarkModeOn
+            ? appStore.scaffoldBackground!
+            : bmLightScaffoldBackgroundColor,
         elevation: 0,
         iconTheme: IconThemeData(color: bmPrimaryColor),
         leadingWidth: 30,
@@ -47,7 +53,11 @@ class _BMShoppingScreenState extends State<BMShoppingScreen> {
       ),
       body: Container(
         margin: EdgeInsets.only(top: 16),
-        decoration: BoxDecoration(color: appStore.isDarkModeOn ? bmSecondBackgroundColorDark : bmSecondBackgroundColorLight, borderRadius: radiusOnly(topLeft: 32, topRight: 32)),
+        decoration: BoxDecoration(
+            color: appStore.isDarkModeOn
+                ? bmSecondBackgroundColorDark
+                : bmSecondBackgroundColorLight,
+            borderRadius: radiusOnly(topLeft: 32, topRight: 32)),
         child: SingleChildScrollView(
           child: Column(
             children: [
@@ -62,7 +72,9 @@ class _BMShoppingScreenState extends State<BMShoppingScreen> {
                             return Container(
                               decoration: BoxDecoration(
                                 borderRadius: radius(32),
-                                color: selectedTab == index ? bmPrimaryColor : Colors.transparent,
+                                color: selectedTab == index
+                                    ? bmPrimaryColor
+                                    : Colors.transparent,
                               ),
                               padding: EdgeInsets.all(8),
                               child: Text(
@@ -92,7 +104,13 @@ class _BMShoppingScreenState extends State<BMShoppingScreen> {
                           ),
                           padding: EdgeInsets.symmetric(horizontal: 8),
                           child: AppTextField(
-                            decoration: InputDecoration(border: InputBorder.none, prefixIcon: Icon(Icons.search_sharp, color: bmPrimaryColor), hintText: 'Search for Products', hintStyle: boldTextStyle(color: bmPrimaryColor)),
+                            decoration: InputDecoration(
+                                border: InputBorder.none,
+                                prefixIcon: Icon(Icons.search_sharp,
+                                    color: bmPrimaryColor),
+                                hintText: 'Search for Products',
+                                hintStyle:
+                                    boldTextStyle(color: bmPrimaryColor)),
                             textFieldType: TextFieldType.NAME,
                             cursorColor: bmPrimaryColor,
                           ),
@@ -100,12 +118,15 @@ class _BMShoppingScreenState extends State<BMShoppingScreen> {
                         16.height,
                         Column(
                           children: getProductList().map((e) {
-                            return BMShopComponent(element: e);
+                            return BMShopComponent(element: e as BMShoppingModel);
                           }).toList(),
                         ),
                       ],
                     ),
-              widget.isOrders ? PurchaseMoreScreen().withSize(width: context.width(), height: context.height()) : Offstage(),
+              widget.isOrders
+                  ? PurchaseMoreScreen().withSize(
+                      width: context.width(), height: context.height())
+                  : Offstage(),
               40.height,
             ],
           ),

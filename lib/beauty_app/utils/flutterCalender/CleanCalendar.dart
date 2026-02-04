@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:intl/intl.dart';
-
 import 'CalendarTile.dart';
 import 'SimpleGestureDetector.dart';
 import 'date_utils.dart';
@@ -243,7 +242,7 @@ class _CalendarState extends State<Calendar> {
 
   TextStyle? configureDateStyle(monthStarted, monthEnded) {
     TextStyle? dateStyles;
-    final TextStyle? body1Style = Theme.of(context).textTheme.bodyText2;
+    final TextStyle? body1Style = Theme.of(context).textTheme.titleMedium;
 
     if (isExpanded) {
       final TextStyle body1StyleDisabled = body1Style!.copyWith(

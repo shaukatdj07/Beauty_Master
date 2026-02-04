@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-
-import '../models/BMShoppingModel.dart';
+import '../model/BMShoppingModel.dart';
 import '../utils/BMColors.dart';
 import '../utils/BMWidgets.dart';
 

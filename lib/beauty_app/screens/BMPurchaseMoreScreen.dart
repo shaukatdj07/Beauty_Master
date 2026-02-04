@@ -1,7 +1,7 @@
-import 'package:beauty_master/utils/BMColors.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:url_launcher/url_launcher.dart';
+import '../utils/BMColors.dart';
 
 class PurchaseMoreScreen extends StatelessWidget {
   final bool? enableAppbar;

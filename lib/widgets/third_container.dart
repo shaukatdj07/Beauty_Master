@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 class ThirdContainer extends StatelessWidget {
-  const ThirdContainer({super.key});
+  const ThirdContainer();
 
   @override
   Widget build(BuildContext context) {

@@ -1,13 +1,12 @@
-import 'package:beauty_master/components/BMAvailabilityComponent.dart';
-import 'package:beauty_master/screens/BMPurchaseMoreScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:nb_utils/nb_utils.dart';
-
-import '../main.dart';
-import '../models/BMServiceListModel.dart';
+import '../../main.dart';
+import '../components/BMAvailabilityComponent.dart';
+import '../model/BMServiceListModel.dart';
 import '../utils/BMColors.dart';
 import '../utils/BMWidgets.dart';
+import 'BMPurchaseMoreScreen.dart';
 import 'BMShoppingScreen.dart';
 
 class BMCalenderScreen extends StatefulWidget {

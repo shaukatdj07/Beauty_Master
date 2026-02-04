@@ -1,13 +1,13 @@
 import 'package:nb_utils/nb_utils.dart';
+import '../model/BMAppointmentModel.dart';
+import '../model/BMCommentModel.dart';
+import '../model/BMCommonCardModel.dart';
+import '../model/BMDashboardModel.dart';
+import '../model/BMMasterModel.dart';
+import '../model/BMMessageModel.dart';
+import '../model/BMServiceListModel.dart';
+import '../model/BMShoppingModel.dart';
 
-import '../models/BMAppointmentModel.dart';
-import '../models/BMCommentModel.dart';
-import '../models/BMCommonCardModel.dart';
-import '../models/BMDashboardModel.dart';
-import '../models/BMMasterModel.dart';
-import '../models/BMMessageModel.dart';
-import '../models/BMServiceListModel.dart';
-import '../models/BMShoppingModel.dart';
 
 List<WalkThroughModelClass> getWalkThroughList() {
   List<WalkThroughModelClass> list = [];

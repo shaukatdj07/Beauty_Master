@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SecContainer extends StatelessWidget {
-  const SecContainer({super.key});
+  const SecContainer();
 
   @override
   Widget build(BuildContext context) {
@@ -25,11 +25,11 @@ class SecContainer extends StatelessWidget {
               ],
             ),
             child: Column(
-              mainAxisAlignment: .center,
-              crossAxisAlignment: .center,
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Row(
-                  mainAxisAlignment: .spaceBetween,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     _Info(title: 'Completion', value: '100%', color: Colors.green),
                     _Info(title: 'Total Questions', value: '20', color: Colors.purple),
@@ -37,7 +37,7 @@ class SecContainer extends StatelessWidget {
                 ),
                 const SizedBox(height: 12),
                 Row(
-                  mainAxisAlignment: .spaceBetween,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     _Info(title: 'Correct', value: '13', color: Colors.green),
                     _Info(title: 'Wrong', value: '7', color: Colors.red),

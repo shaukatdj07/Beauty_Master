@@ -1,11 +1,10 @@
-import 'package:beauty_master/screens/BMPurchaseMoreScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-
+import '../../main.dart';
 import '../components/BMFloatingActionComponent.dart';
-import '../main.dart';
 import '../utils/BMColors.dart';
 import '../utils/BMWidgets.dart';
+import 'BMPurchaseMoreScreen.dart';
 
 class BMTopOffersScreen extends StatefulWidget {
   const BMTopOffersScreen({Key? key}) : super(key: key);

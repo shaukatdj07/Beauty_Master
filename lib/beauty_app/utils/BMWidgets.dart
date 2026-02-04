@@ -1,7 +1,6 @@
-import 'package:beauty_master/main.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-
+import '../../main.dart';
 import 'BMColors.dart';
 
 AppBar appBar(BuildContext context, String title, {List<Widget>? actions, bool showBack = true, Color? color, Color? iconColor, Color? textColor}) {
@@ -49,8 +48,7 @@ class CustomTheme extends StatelessWidget {
     return Theme(
       data: appStore.isDarkModeOn
           ? ThemeData.dark().copyWith(
-              accentColor: bmBlueColor,
-              backgroundColor: context.scaffoldBackgroundColor,
+              hintColor: bmBlueColor,
             )
           : ThemeData.light(),
       child: child!,

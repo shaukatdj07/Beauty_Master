@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:nb_utils/nb_utils.dart';
-
+import 'package:uis/beauty_app/model/BMAppointmentModel.dart';
 import '../utils/BMDataGenerator.dart';
 import '../utils/BMWidgets.dart';
 import 'BMAppointmentComponent.dart';
@@ -34,7 +34,7 @@ class BMAppointMentTabComponent extends StatelessWidget {
         Column(
           mainAxisSize: MainAxisSize.min,
           children: getAppointments().map((e) {
-            return BMAppointmentComponent(element: e);
+            return BMAppointmentComponent(element: e as BMAppointmentModel);
           }).toList(),
         ),
         20.height,
@@ -43,7 +43,7 @@ class BMAppointMentTabComponent extends StatelessWidget {
         Column(
           mainAxisSize: MainAxisSize.min,
           children: getMoreAppointmentsList().map((e) {
-            return BMAppointmentComponent(element: e);
+            return BMAppointmentComponent(element: e as BMAppointmentModel);
           }).toList(),
         )
       ],

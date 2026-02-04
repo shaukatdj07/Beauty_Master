@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-
-import '../models/BMCommonCardModel.dart';
+import '../model/BMCommonCardModel.dart';
 import '../utils/BMBottomSheet.dart';
 import '../utils/BMColors.dart';
 

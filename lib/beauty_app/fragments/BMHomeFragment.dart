@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-
+import '../../main.dart';
 import '../components/BMCommonCardComponent.dart';
 import '../components/BMHomeFragmentHeadComponent.dart';
 import '../components/BMMyMasterComponent.dart';
 import '../components/BMTopServiceHomeComponent.dart';
-import '../main.dart';
-import '../models/BMCommonCardModel.dart';
+import '../model/BMCommonCardModel.dart';
 import '../screens/BMRecommendedScreen.dart';
 import '../screens/BMTopOffersScreen.dart';
 import '../utils/BMColors.dart';

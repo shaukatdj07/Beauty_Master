@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class FirstContainer extends StatelessWidget {
-  const FirstContainer({super.key});
+  const FirstContainer();
 
   @override
   Widget build(BuildContext context) {
@@ -57,7 +57,7 @@ class FirstContainer extends StatelessWidget {
                       color: Colors.white
                   ),
                   child: Column(
-                    mainAxisAlignment: .center,
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text('Your Score',style: TextStyle(color: Color(0xFF8E5AF7), fontSize: 16),),
                       SizedBox(height: 6),

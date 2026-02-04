@@ -1,15 +1,14 @@
-import 'package:beauty_master/screens/BMPurchaseMoreScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-
+import '../../main.dart';
 import '../fragments/BMAppointmentFragment.dart';
 import '../fragments/BMChatFragment.dart';
 import '../fragments/BMHomeFragment.dart';
 import '../fragments/BMMoreFragment.dart';
-import '../main.dart';
-import '../models/BMDashboardModel.dart';
+import '../model/BMDashboardModel.dart';
 import '../utils/BMColors.dart';
 import '../utils/BMDataGenerator.dart';
+import 'BMPurchaseMoreScreen.dart';
 
 class BMDashboardScreen extends StatefulWidget {
   final bool flag;

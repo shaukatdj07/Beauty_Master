@@ -1,11 +1,10 @@
-import 'package:beauty_master/utils/BMConstants.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-
-import '../main.dart';
-import '../models/BMCommonCardModel.dart';
+import '../../main.dart';
+import '../model/BMCommonCardModel.dart';
 import '../screens/BMSingleComponentScreen.dart';
 import '../utils/BMColors.dart';
+import '../utils/BMConstants.dart';
 
 class BMCommonCardComponent extends StatefulWidget {
   BMCommonCardModel element;

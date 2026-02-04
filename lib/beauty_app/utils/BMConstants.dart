@@ -1,4 +1,4 @@
-import '../models/BMCommonCardModel.dart';
+import '../model/BMCommonCardModel.dart';
 import 'BMDataGenerator.dart';
 
 const appName = 'Beauty Master';

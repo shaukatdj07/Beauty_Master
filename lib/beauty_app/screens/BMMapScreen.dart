@@ -1,13 +1,12 @@
-import 'package:beauty_master/main.dart';
-import 'package:beauty_master/screens/BMPurchaseMoreScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:nb_utils/nb_utils.dart';
-
+import '../../main.dart';
 import '../components/BMCardComponentTwo.dart';
-import '../models/BMCommonCardModel.dart';
+import '../model/BMCommonCardModel.dart';
 import '../utils/BMColors.dart';
 import '../utils/BMDataGenerator.dart';
+import 'BMPurchaseMoreScreen.dart';
 
 class BMMapScreen extends StatefulWidget {
   static String tag = '/BMMapScreen';

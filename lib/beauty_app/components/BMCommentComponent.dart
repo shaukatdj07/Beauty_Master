@@ -1,9 +1,8 @@
-import 'package:beauty_master/main.dart';
-import 'package:beauty_master/utils/BMColors.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-
-import '../models/BMCommentModel.dart';
+import '../../main.dart';
+import '../model/BMCommentModel.dart';
+import '../utils/BMColors.dart';
 import '../utils/BMWidgets.dart';
 
 class BMCommentComponent extends StatefulWidget {

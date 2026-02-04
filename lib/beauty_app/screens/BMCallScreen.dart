@@ -1,8 +1,7 @@
-import 'package:beauty_master/screens/BMPurchaseMoreScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-
 import '../utils/BMColors.dart';
+import 'BMPurchaseMoreScreen.dart';
 
 class BMCallScreen extends StatefulWidget {
   String? image;

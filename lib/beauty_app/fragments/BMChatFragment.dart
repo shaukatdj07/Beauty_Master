@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
-
-import '../main.dart';
-import '../models/BMMessageModel.dart';
+import '../../main.dart';
+import '../model/BMMessageModel.dart';
 import '../screens/BMChatScreen.dart';
 import '../utils/BMColors.dart';
 import '../utils/BMDataGenerator.dart';

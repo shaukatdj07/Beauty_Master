@@ -1,7 +1,7 @@
-import 'package:beauty_master/utils/BMWidgets.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 
+import '../BMWidgets.dart';
 import 'CleanCalendar.dart';
 
 class CalenderHomePage extends StatefulWidget {
