@@ -27,7 +27,7 @@ class BMMyMasterComponent extends StatelessWidget {
                       child: Container(
                         width: 200,
                         padding: EdgeInsets.only(top: 50, bottom: 30),
-                        decoration: BoxDecoration(borderRadius: radius(32), color: context.cardColor),
+                        decoration: BoxDecoration(borderRadius: radius(32), color: appColorPrimaryLight),
                         child: Text(myMasterList[index].name, style: boldTextStyle(), textAlign: TextAlign.center),
                       ),
                     ),

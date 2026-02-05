@@ -34,9 +34,9 @@ List<BMDashboardModel> getDashboardList() {
 List<BMMasterModel> getMyMastersList() {
   List<BMMasterModel> list = [];
 
-  list.add(BMMasterModel(image: 'images/face_two.jpg', name: 'Hannah Benson'));
-  list.add(BMMasterModel(image: 'images/face_one.png', name: 'Maurice Reynolds'));
-  list.add(BMMasterModel(image: 'images/model_three.jpg', name: 'Hannah Benson'));
+  list.add(BMMasterModel(image: 'images/face_two.jpg', name: 'Ayesha Batoul'));
+  list.add(BMMasterModel(image: 'images/face_one.png', name: 'Mr Saif'));
+  list.add(BMMasterModel(image: 'images/model_three.jpg', name: 'Zoya Akhtar'));
 
   return list;
 }

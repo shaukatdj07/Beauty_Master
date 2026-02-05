@@ -13,7 +13,7 @@ class AppThemeData {
     scaffoldBackgroundColor: whiteColor,
     primaryColor: bmPrimaryColor,
     primaryColorDark: bmPrimaryColor,
-    cardColor: Colors.red,
+    //cardColor: Colors.red,
     hoverColor: Colors.white54,
     dividerColor: viewLineColor,
     fontFamily: GoogleFonts.openSans().fontFamily,
@@ -25,6 +25,7 @@ class AppThemeData {
     textSelectionTheme: TextSelectionThemeData(cursorColor: Colors.black),
     colorScheme: ColorScheme.light(primary: bmPrimaryColor),
     cardTheme: CardThemeData(color: Colors.white),
+    cardColor: Colors.white,
     iconTheme: IconThemeData(color: textPrimaryColor),
     bottomSheetTheme: BottomSheetThemeData(backgroundColor: whiteColor),
     textTheme: TextTheme(

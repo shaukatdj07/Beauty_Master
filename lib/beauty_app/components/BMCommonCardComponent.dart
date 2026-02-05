@@ -22,7 +22,7 @@ class _BMCommonCardComponentState extends State<BMCommonCardComponent> {
   Widget build(BuildContext context) {
     return Container(
       width: widget.fullScreenComponent ? context.width() - 32 : 250,
-      decoration: BoxDecoration(color: context.cardColor, borderRadius: radius(32)),
+      decoration: BoxDecoration(color: appColorPrimaryLight, borderRadius: radius(32)),
       child: Stack(
         children: [
           Column(
@@ -53,7 +53,7 @@ class _BMCommonCardComponentState extends State<BMCommonCardComponent> {
               8.height,
               Text(widget.element.title, style: boldTextStyle(size: 18, color: appStore.isDarkModeOn ? Colors.white : bmSpecialColorDark)).paddingSymmetric(horizontal: 8),
               4.height,
-              Text(widget.element.subtitle!, style: secondaryTextStyle(color: appStore.isDarkModeOn ? bmTextColorDarkMode : bmPrimaryColor, size: 12)).paddingSymmetric(horizontal: 8),
+              Text(widget.element.subtitle!, style: secondaryTextStyle(color: appStore.isDarkModeOn ? bmTextColorDarkMode : black, size: 12)).paddingSymmetric(horizontal: 8),
               4.height,
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -67,10 +67,10 @@ class _BMCommonCardComponentState extends State<BMCommonCardComponent> {
                       4.width,
                       Text(widget.element.rating!, style: boldTextStyle()),
                       2.width,
-                      Text('(${widget.element.comments!})', style: secondaryTextStyle(color: appStore.isDarkModeOn ? bmTextColorDarkMode : bmPrimaryColor)),
+                      Text('(${widget.element.comments!})', style: secondaryTextStyle(color: appStore.isDarkModeOn ? bmTextColorDarkMode : black)),
                     ],
                   ),
-                  Text(widget.element.distance!, style: secondaryTextStyle(color: appStore.isDarkModeOn ? bmTextColorDarkMode : bmPrimaryColor)),
+                  Text(widget.element.distance!, style: secondaryTextStyle(color: appStore.isDarkModeOn ? bmTextColorDarkMode : black)),
                 ],
               ).paddingSymmetric(horizontal: 8),
               16.height,
