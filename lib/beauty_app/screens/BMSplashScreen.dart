@@ -38,7 +38,7 @@ class _BMSplashScreenState extends State<BMSplashScreen> {
         mainAxisSize: MainAxisSize.min,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Image.asset('images/beautymaster_logo.png', height: 200),
+          Image.asset('images/lily_touch_logo.png', height: 200),
           Text('Beauty Master', style: boldTextStyle(size: 20, color: appStore.isDarkModeOn ? Colors.white : bmSpecialColorDark)),
         ],
       ).center(),

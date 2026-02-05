@@ -31,7 +31,7 @@ class PurchaseMoreScreen extends StatelessWidget {
                   ),
                   22.height,
                   Text(
-                    'This is the lite version of the OraPay App',
+                    'This is the lite version of the Lily Touch',
                     style: boldTextStyle(size: 22),
                     textAlign: TextAlign.center,
                   ),

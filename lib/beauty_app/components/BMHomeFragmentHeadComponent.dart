@@ -26,10 +26,10 @@ class HomeFragmentHeadComponent extends StatelessWidget {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('New York', style: boldTextStyle(color: Colors.white, size: 14)),
+                      Text('Islamabad', style: boldTextStyle(color: Colors.white, size: 14)),
                       Wrap(
                         children: [
-                          Text('32', style: boldTextStyle(size: 24, color: Colors.white)),
+                          Text('30', style: boldTextStyle(size: 24, color: Colors.white)),
                           Text(
                             '°C',
                             style: TextStyle(fontFeatures: [FontFeature.superscripts()], color: Colors.white),

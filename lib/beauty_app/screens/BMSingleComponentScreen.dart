@@ -167,7 +167,7 @@ class _BMSingleComponentScreenState extends State<BMSingleComponentScreen> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           titleText(title: widget.element.title),
-                          8.height,
+                          //8.height,
                           Text(
                             widget.element.subtitle!,
                             style: secondaryTextStyle(
@@ -176,7 +176,7 @@ class _BMSingleComponentScreenState extends State<BMSingleComponentScreen> {
                                     : bmPrimaryColor,
                                 size: 12),
                           ),
-                          8.height,
+                          //8.height,
                           Row(
                             children: [
                               Text(widget.element.rating!,
@@ -205,7 +205,7 @@ class _BMSingleComponentScreenState extends State<BMSingleComponentScreen> {
                                       color: bmTextColorDarkMode)),
                             ],
                           ),
-                          8.height,
+                          //8.height,
                           Wrap(
                             spacing: 16,
                             children: [

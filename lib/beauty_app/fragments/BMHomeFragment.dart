@@ -44,7 +44,7 @@ class _BMHomeFragmentState extends State<BMHomeFragment> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   20.height,
-                  titleText(title: 'My Master').paddingSymmetric(horizontal: 16),
+                  titleText(title: "Master's").paddingSymmetric(horizontal: 16),
                   20.height,
                   BMMyMasterComponent(),
                   20.height,

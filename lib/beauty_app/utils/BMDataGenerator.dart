@@ -12,9 +12,9 @@ import '../model/BMShoppingModel.dart';
 List<WalkThroughModelClass> getWalkThroughList() {
   List<WalkThroughModelClass> list = [];
 
-  list.add(WalkThroughModelClass(image: 'images/model_one.jpg', title: 'Book a visit easy & fast', subTitle: 'Find the best beauty salon in your local and book a dream visit.'));
+  list.add(WalkThroughModelClass(image: 'images/model.jpg', title: 'Book a visit easy & fast', subTitle: 'Find the best beauty salon in your local and book a dream visit.'));
   list.add(WalkThroughModelClass(image: 'images/model_two.jpg', title: 'Online Services Booking', subTitle: 'For when visiting the shop or salon is not an option, experience beauty in new way.'));
-  list.add(WalkThroughModelClass(image: 'images/model_three.jpg', title: 'Book anytime, anywhere', subTitle: 'Access calenders, services, and reviews wuth the freedom to book as you please.'));
+  list.add(WalkThroughModelClass(image: 'images/model_three.jpg', title: 'Book anytime, anywhere', subTitle: 'Access calenders, services, and reviews with the freedom to book as you please.'));
 
   return list;
 }
@@ -56,40 +56,40 @@ List<BMCommonCardModel> getSpecialOffersList() {
   List<BMCommonCardModel> list = [];
 
   list.add(BMCommonCardModel(
-    title: 'Fly Trim Hair Studio',
+    title: 'Velvet Glow',
     image: 'images/salon_one.jpg',
     saveTag: true,
-    subtitle: '131-18 Merrick Blvd, Jamaica,Ny 11434',
+    subtitle: 'Shop 12, Ground Floor, Super Market, Sector F-6, Islamabad',
     rating: '5.0',
     comments: '240',
     distance: '0.5 mil',
     liked: true,
   ));
   list.add(BMCommonCardModel(
-    title: 'Paul Cuts',
+    title: 'Aura Lux',
     image: 'images/salon_two.jpg',
     saveTag: true,
-    subtitle: '131-18 Merrick Blvd, Jamaica,Ny 11434',
+    subtitle: 'Plot 5, Jinnah Super Market, Sector F-7, Islamabad',
     rating: '4.9',
     comments: '192 reviews',
-    distance: '0.7 mil',
+    distance: '0.9 mil',
     liked: false,
   ));
   list.add(BMCommonCardModel(
-    title: 'Bio Pinky Nail Salon',
+    title: 'Blush Lab',
     image: 'images/salon_four.jpg',
     saveTag: true,
-    subtitle: '1159w Madison street, 1, Chicago',
+    subtitle: 'Shop 18, Markaz Plaza, Sector F-8 Markaz, Islamabad',
     rating: '5.0',
     comments: '240',
     distance: '0.5 mil',
     liked: true,
   ));
   list.add(BMCommonCardModel(
-    title: 'Savanna',
+    title: 'Glow District',
     image: 'images/salon_three.jpg',
     saveTag: true,
-    subtitle: '2701 Black Rd, Joliet, II, 60435',
+    subtitle: 'Office 9, 1st Floor, F-10 Markaz Plaza, Sector F-10, Islamabad',
     rating: '4.8',
     comments: '1.2k reviews',
     distance: '0.5 mil',
@@ -105,40 +105,40 @@ List<BMCommonCardModel> getFavList() {
   List<BMCommonCardModel> list = [];
 
   list.add(BMCommonCardModel(
-    title: 'Fly Trim Hair Studio',
+    title: 'Skin & Shine',
     image: 'images/salon_one.jpg',
     saveTag: false,
-    subtitle: '131-18 Merrick Blvd, Jamaica,Ny 11434',
+    subtitle: 'Shop 22, F-11 Markaz, Main Service Road, Sector F-11, Islamabad',
     rating: '5.0',
     comments: '240',
     distance: '0.5 mil',
     liked: true,
   ));
   list.add(BMCommonCardModel(
-    title: 'Paul Cuts',
+    title: 'Rose Haven Salon',
     image: 'images/salon_two.jpg',
     saveTag: false,
-    subtitle: '131-18 Merrick Blvd, Jamaica,Ny 11434',
+    subtitle: 'Office 14, 3rd Floor, Blue Area, Jinnah Avenue, Islamabad',
     rating: '4.9',
     comments: '192 reviews',
     distance: '0.7 mil',
     liked: true,
   ));
   list.add(BMCommonCardModel(
-    title: 'Bio Pinky Nail Salon',
+    title: 'Glow Hustle Salon',
     image: 'images/salon_four.jpg',
     saveTag: false,
-    subtitle: '1159w Madison street, 1, Chicago',
+    subtitle: 'Shop 6, Karachi Company, Sector G-9 Markaz, Islamabad',
     rating: '5.0',
     comments: '240',
     distance: '0.5 mil',
     liked: true,
   ));
   list.add(BMCommonCardModel(
-    title: 'Savanna',
+    title: 'Pure Bloom',
     image: 'images/salon_three.jpg',
     saveTag: false,
-    subtitle: '2701 Black Rd, Joliet, II, 60435',
+    subtitle: 'Shop 11, G-10 Markaz, Main Double Road, Sector G-10, Islamabad',
     rating: '4.8',
     comments: '1.2k reviews',
     distance: '0.5 mil',
@@ -154,10 +154,10 @@ List<BMCommonCardModel> getRecommendedList() {
   List<BMCommonCardModel> list = [];
 
   list.add(BMCommonCardModel(
-    title: 'Savanna',
+    title: 'Pure Bloom',
     image: 'images/salon_three.jpg',
     saveTag: false,
-    subtitle: '2701 Black Rd, Joliet, II, 60435',
+    subtitle: 'Shop 11, G-10 Markaz, Main Double Road, Sector G-10, Islamabad',
     rating: '4.8',
     comments: '1.2k',
     distance: '0.5 mil',
@@ -165,10 +165,10 @@ List<BMCommonCardModel> getRecommendedList() {
     likes: '124',
   ));
   list.add(BMCommonCardModel(
-    title: 'Bio Pinky Nail Salon',
+    title: 'Rose Haven Salon',
     image: 'images/salon_four.jpg',
     saveTag: false,
-    subtitle: '1159w Madison street, 1, Chicago',
+    subtitle: 'Office 14, 3rd Floor, Blue Area, Jinnah Avenue, Islamabad',
     rating: '5.0',
     comments: '240',
     distance: '0.5 mil',
@@ -177,10 +177,10 @@ List<BMCommonCardModel> getRecommendedList() {
   ));
 
   list.add(BMCommonCardModel(
-    title: 'Fly Trim Hair Studio',
+    title: 'Glow District',
     image: 'images/salon_one.jpg',
     saveTag: false,
-    subtitle: '131-18 Merrick Blvd, Jamaica,Ny 11434',
+    subtitle: 'Office 9, 1st Floor, F-10 Markaz Plaza, Sector F-10, Islamabad',
     rating: '5.0',
     comments: '240',
     distance: '0.5 mil',
@@ -188,10 +188,10 @@ List<BMCommonCardModel> getRecommendedList() {
     likes: '258',
   ));
   list.add(BMCommonCardModel(
-    title: 'Paul Cuts',
+    title: 'Glow Hustle Salon',
     image: 'images/salon_two.jpg',
     saveTag: false,
-    subtitle: '131-18 Merrick Blvd, Jamaica,Ny 11434',
+    subtitle: 'Shop 6, Karachi Company, Sector G-9 Markaz, Islamabad',
     rating: '4.9',
     comments: '192',
     distance: '0.7 mil',
@@ -230,9 +230,9 @@ List<BMCommentModel> getCommentsList() {
 
   list.add(BMCommentModel(image: 'images/face_one.png', likes: '4', time: '3m', name: 'Donald Walters', message: 'Nice work, bro!', isSubComment: false, isLiked: false));
   list.add(BMCommentModel(image: 'images/face_two.jpg', likes: '2', time: '3m', name: 'Roxie Love', message: 'How many time for this style?', isSubComment: false, isLiked: true));
-  list.add(BMCommentModel(image: 'images/face_one.png', likes: '2', time: '3m', name: 'Cotherine Guzman', message: '45 minutes. maybe.', isSubComment: true, isLiked: false));
-  list.add(BMCommentModel(image: 'images/face_two.jpg', likes: '4', time: '20m', name: 'Nwaye Akachi', message: 'Good work!', isSubComment: false, isLiked: false));
-  list.add(BMCommentModel(image: 'images/face_one.png', likes: '4', time: '2d', name: 'Cvita Dolwschall', message: 'Suite with me, let\'s go!', isSubComment: false, isLiked: false));
+  list.add(BMCommentModel(image: 'images/face_one.png', likes: '2', time: '3m', name: 'Catherine Guzman', message: '45 minutes. maybe.', isSubComment: true, isLiked: false));
+  list.add(BMCommentModel(image: 'images/face_two.jpg', likes: '4', time: '20m', name: 'Runway Aka chi', message: 'Good work!', isSubComment: false, isLiked: false));
+  list.add(BMCommentModel(image: 'images/face_one.png', likes: '4', time: '2d', name: 'C vita Catchall', message: 'Suite with me, let\'s go!', isSubComment: false, isLiked: false));
 
   return list;
 }
@@ -245,7 +245,7 @@ List<BMAppointmentModel> getAppointments() {
     time: '9:30 PM - 10.30 PM (1h)',
     isSelected: true,
     product: '1 product',
-    salonName: 'PACHA\'S Luciano',
+    salonName: 'PACA\'S Luciano',
     service: 'Men\'s Hair cut',
   ));
 
@@ -260,7 +260,7 @@ List<BMAppointmentModel> getMoreAppointmentsList() {
     time: '9:30 PM - 10.30 PM (1h)',
     isSelected: false,
     product: '1 product',
-    salonName: 'PACHA\'S Luciano',
+    salonName: 'PACA\'S Luciano',
     service: 'Men\'s Hair cut',
   ));
   list.add(BMAppointmentModel(
@@ -288,7 +288,7 @@ List<BMMessageModel> getMessageList() {
   List<BMMessageModel> list = [];
 
   list.add(BMMessageModel(image: 'images/face_two.jpg', name: 'Hannah Benson', message: 'Hello!', isActive: true, lastSeen: ''));
-  list.add(BMMessageModel(image: 'images/face_one.png', name: 'Victor Pocheco', message: 'Do you want to confirm yor appointment?', isActive: false, lastSeen: 'today , at 11:30 am'));
+  list.add(BMMessageModel(image: 'images/face_one.png', name: 'Victor Pacheco', message: 'Do you want to confirm yor appointment?', isActive: false, lastSeen: 'today , at 11:30 am'));
   list.add(BMMessageModel(image: 'images/model_three.jpg', name: 'Harry Gardner', message: 'How can I help you?', isActive: true, lastSeen: ''));
 
   return list;
@@ -298,7 +298,7 @@ List<BMShoppingModel> getProductList() {
   List<BMShoppingModel> list = [];
 
   list.add(BMShoppingModel(
-    name: 'Intensive Theraphy Choco Gotas Shine',
+    name: 'Intensive Therapy Choco Goats Shine',
     image: 'images/product_one.jpg',
     cost: '\$35.00',
     isAdded: true,
@@ -308,7 +308,7 @@ List<BMShoppingModel> getProductList() {
     views: '(135)',
   ));
   list.add(BMShoppingModel(
-    name: 'Kiwi Skin boosterz',
+    name: 'Kiwi Skin boosters',
     image: 'images/product_two.png',
     cost: '\$29.99',
     isAdded: false,
@@ -318,7 +318,7 @@ List<BMShoppingModel> getProductList() {
     views: '(240)',
   ));
   list.add(BMShoppingModel(
-    name: 'Intensive Theraphy Choco Gotas Shine',
+    name: 'Intensive Therapy Choco Goats Shine',
     image: 'images/product_three.jpg',
     cost: '\$35.00',
     isAdded: false,

@@ -79,7 +79,7 @@ class _BMWalkThroughScreenState extends State<BMWalkThroughScreen> {
                             height: 4,
                             width: i == currentIndexPage ? 30 : 14,
                             decoration: BoxDecoration(
-                              color: i == currentIndexPage ? white : Colors.grey,
+                              color: i == currentIndexPage ? white : grey,
                               borderRadius: radius(12),
                             ),
                           ),
@@ -91,7 +91,7 @@ class _BMWalkThroughScreenState extends State<BMWalkThroughScreen> {
                       children: [
                         AppButton(
                           shapeBorder: RoundedRectangleBorder(borderRadius: BorderRadius.circular(32)),
-                          child: Text('Login Now', style: boldTextStyle(color: Colors.white)),
+                          child: Text('Login Now', style: boldTextStyle(color: white)),
                           padding: EdgeInsets.all(16),
                           width: 150,
                           color: bmPrimaryColor,
@@ -101,7 +101,7 @@ class _BMWalkThroughScreenState extends State<BMWalkThroughScreen> {
                         ),
                         16.width,
                         AppButton(
-                          child: Text('Join Now', style: boldTextStyle(color: Colors.white)),
+                          child: Text('Join Now', style: boldTextStyle(color: white)),
                           width: 150,
                           shapeBorder: RoundedRectangleBorder(borderRadius: BorderRadius.circular(32)),
                           padding: EdgeInsets.all(16),
