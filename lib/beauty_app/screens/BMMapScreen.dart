@@ -67,7 +67,7 @@ class BMMapScreenState extends State<BMMapScreen> {
                           children: [
                             Icon(Icons.location_on_outlined, color: bmPrimaryColor),
                             8.width,
-                            Text('New York', style: boldTextStyle()),
+                            Text('Islamabad', style: boldTextStyle()),
                             8.width,
                           ],
                         ),

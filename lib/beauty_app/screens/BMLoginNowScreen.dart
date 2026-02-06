@@ -27,32 +27,34 @@ class _BMLoginNowScreenState extends State<BMLoginNowScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: appStore.isDarkModeOn ? appStore.scaffoldBackground! : bmLightScaffoldBackgroundColor,
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Image.asset('images/check.png', height: 200),
-          Text('Congrats!', style: boldTextStyle(color: appStore.isDarkModeOn ? Colors.white : bmSpecialColorDark, size: 30)),
-          16.height,
-          Text(
-            'You have successfully change password. Please use new password when logging in.',
-            style: secondaryTextStyle(color: appStore.isDarkModeOn ? Colors.white : bmSpecialColorDark),
-            textAlign: TextAlign.center,
-          ),
-          16.height,
-          AppButton(
-            shapeBorder: RoundedRectangleBorder(borderRadius: BorderRadius.circular(32)),
-            child: Text('Login Now', style: boldTextStyle(color: Colors.white)),
-            padding: EdgeInsets.all(16),
-            width: 150,
-            color: bmPrimaryColor,
-            onTap: () {
-              finish(context);
-              finish(context);
-              finish(context);
-            },
-          ),
-        ],
-      ).paddingAll(20),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Image.asset('images/check.png', height: 200),
+            Text('Congrats!', style: boldTextStyle(color: appStore.isDarkModeOn ? Colors.white : bmSpecialColorDark, size: 30)),
+            16.height,
+            Text(
+              'You have successfully change password. Please use new password when logging in.',
+              style: secondaryTextStyle(color: appStore.isDarkModeOn ? Colors.white : bmSpecialColorDark),
+              textAlign: TextAlign.center,
+            ),
+            16.height,
+            AppButton(
+              shapeBorder: RoundedRectangleBorder(borderRadius: BorderRadius.circular(32)),
+              child: Text('Login Now', style: boldTextStyle(color: Colors.white)),
+              padding: EdgeInsets.all(16),
+              width: 150,
+              color: bmPrimaryColor,
+              onTap: () {
+                finish(context);
+                finish(context);
+                finish(context);
+              },
+            ),
+          ],
+        ).paddingAll(20),
+      ),
     );
   }
 }

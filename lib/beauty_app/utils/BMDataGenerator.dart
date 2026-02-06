@@ -12,7 +12,7 @@ import '../model/BMShoppingModel.dart';
 List<WalkThroughModelClass> getWalkThroughList() {
   List<WalkThroughModelClass> list = [];
 
-  list.add(WalkThroughModelClass(image: 'images/model.jpg', title: 'Book a visit easy & fast', subTitle: 'Find the best beauty salon in your local and book a dream visit.'));
+  list.add(WalkThroughModelClass(image: 'images/walk_screen.jpg', title: 'Book a visit easy & fast', subTitle: 'Find the best beauty salon in your local and book a dream visit.'));
   list.add(WalkThroughModelClass(image: 'images/model_two.jpg', title: 'Online Services Booking', subTitle: 'For when visiting the shop or salon is not an option, experience beauty in new way.'));
   list.add(WalkThroughModelClass(image: 'images/model_three.jpg', title: 'Book anytime, anywhere', subTitle: 'Access calenders, services, and reviews with the freedom to book as you please.'));
 
@@ -34,9 +34,9 @@ List<BMDashboardModel> getDashboardList() {
 List<BMMasterModel> getMyMastersList() {
   List<BMMasterModel> list = [];
 
-  list.add(BMMasterModel(image: 'images/face_two.jpg', name: 'Ayesha Batoul'));
-  list.add(BMMasterModel(image: 'images/face_one.png', name: 'Mr Saif'));
-  list.add(BMMasterModel(image: 'images/model_three.jpg', name: 'Zoya Akhtar'));
+  list.add(BMMasterModel(image: 'images/ayesha.jpg', name: 'Ayesha Batoul'));
+  list.add(BMMasterModel(image: 'images/saif.jpg', name: 'Mr Saif'));
+  list.add(BMMasterModel(image: 'images/zoya.jpg', name: 'Zoya Akhtar'));
 
   return list;
 }
@@ -241,12 +241,12 @@ List<BMAppointmentModel> getAppointments() {
   List<BMAppointmentModel> list = [];
 
   list.add(BMAppointmentModel(
-    image: 'images/face_one.png',
+    image: 'images/saif.jpg',
     time: '9:30 PM - 10.30 PM (1h)',
     isSelected: true,
-    product: '1 product',
-    salonName: 'PACA\'S Luciano',
-    service: 'Men\'s Hair cut',
+    product: '2 product',
+    salonName: 'Pure Bloom',
+    service: 'Men\'s Hair cut + Facial',
   ));
 
   return list;
@@ -256,19 +256,19 @@ List<BMAppointmentModel> getMoreAppointmentsList() {
   List<BMAppointmentModel> list = [];
 
   list.add(BMAppointmentModel(
-    image: 'images/face_one.png',
+    image: 'images/zoya.jpg',
     time: '9:30 PM - 10.30 PM (1h)',
     isSelected: false,
     product: '1 product',
-    salonName: 'PACA\'S Luciano',
+    salonName: 'Glow Hustle Salon',
     service: 'Men\'s Hair cut',
   ));
   list.add(BMAppointmentModel(
-    image: 'images/face_two.jpg',
+    image: 'images/ayesha.jpg',
     time: '14:30 PM - 15.30 PM',
     isSelected: false,
     product: '1 product',
-    salonName: 'Uncle will Da Barber',
+    salonName: 'Skin & Shine',
     service: 'Hair cut + Deluxe Beard/ Facial Service',
   ));
 
@@ -278,8 +278,8 @@ List<BMAppointmentModel> getMoreAppointmentsList() {
 List<BMMessageModel> getActiveList() {
   List<BMMessageModel> list = [];
 
-  list.add(BMMessageModel(image: 'images/face_two.jpg', name: 'Hannah Benson', message: 'Hello!', isActive: true, lastSeen: ''));
-  list.add(BMMessageModel(image: 'images/face_two.jpg', name: 'Harry Gardner', message: 'How can I help you?', isActive: true, lastSeen: ''));
+  list.add(BMMessageModel(image: 'images/zoya.jpg', name: 'Zoya Akhtar', message: 'Hello!', isActive: true, lastSeen: ''));
+  list.add(BMMessageModel(image: 'images/saif.jpg', name: 'Mr Saif', message: 'How can I help you?', isActive: true, lastSeen: ''));
 
   return list;
 }
@@ -287,9 +287,9 @@ List<BMMessageModel> getActiveList() {
 List<BMMessageModel> getMessageList() {
   List<BMMessageModel> list = [];
 
-  list.add(BMMessageModel(image: 'images/face_two.jpg', name: 'Hannah Benson', message: 'Hello!', isActive: true, lastSeen: ''));
-  list.add(BMMessageModel(image: 'images/face_one.png', name: 'Victor Pacheco', message: 'Do you want to confirm yor appointment?', isActive: false, lastSeen: 'today , at 11:30 am'));
-  list.add(BMMessageModel(image: 'images/model_three.jpg', name: 'Harry Gardner', message: 'How can I help you?', isActive: true, lastSeen: ''));
+  list.add(BMMessageModel(image: 'images/zoya.jpg', name: 'Zoya Akhtar', message: 'Hello!', isActive: true, lastSeen: ''));
+  list.add(BMMessageModel(image: 'images/model_two.jpg', name: 'Mr Zain', message: 'Do you want to confirm yor appointment?', isActive: false, lastSeen: 'today , at 11:30 am'));
+  list.add(BMMessageModel(image: 'images/saif.jpg', name: 'Mr Saif', message: 'How can I help you?', isActive: true, lastSeen: ''));
 
   return list;
 }

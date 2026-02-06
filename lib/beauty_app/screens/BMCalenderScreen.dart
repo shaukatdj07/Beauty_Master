@@ -40,7 +40,7 @@ class _BMCalenderScreenState extends State<BMCalenderScreen> {
 
   Widget bookAppointment() {
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         titleText(title: 'Availability'),
         16.height,
@@ -72,7 +72,8 @@ class _BMCalenderScreenState extends State<BMCalenderScreen> {
         16.height,
         Divider(),
         16.height,
-        BMAvailabilityComponent(element: widget.element!),
+        if (widget.element != null)
+          BMAvailabilityComponent(element: widget.element!),
         16.height,
         Container(
           padding: EdgeInsets.all(8),
@@ -142,7 +143,13 @@ class _BMCalenderScreenState extends State<BMCalenderScreen> {
         leadingWidth: 30,
         iconTheme: IconThemeData(color: bmPrimaryColor),
       ),
-      body: PurchaseMoreScreen(),
+      body:Column(
+        children: [
+          bookStaff(),
+          20.height,
+          bookAppointment(),
+        ],
+      ),
       floatingActionButton: !widget.isStaffBooking
           ? Container(
               padding: EdgeInsets.only(left: 8),

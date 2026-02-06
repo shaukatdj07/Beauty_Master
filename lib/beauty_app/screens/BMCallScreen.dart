@@ -33,7 +33,7 @@ class _BMCallScreenState extends State<BMCallScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Image.asset(
-                  'images/face_two.jpg',
+                  'images/zoya.jpg',
                   height: 150,
                   width: 110,
                   fit: BoxFit.cover,

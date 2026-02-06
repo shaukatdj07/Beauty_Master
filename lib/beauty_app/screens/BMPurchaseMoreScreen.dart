@@ -27,11 +27,11 @@ class PurchaseMoreScreen extends StatelessWidget {
                   Container(
                     decoration: boxDecorationDefault(),
                     padding: EdgeInsets.all(16),
-                    child: Image.asset("images/beautymaster_logo.png", height: 100),
+                    child: Image.asset("images/lily_touch_logo.png", height: 100),
                   ),
                   22.height,
                   Text(
-                    'This is the lite version of the Lily Touch',
+                    'This is the lite version of the Beauty Master',
                     style: boldTextStyle(size: 22),
                     textAlign: TextAlign.center,
                   ),
@@ -41,9 +41,9 @@ class PurchaseMoreScreen extends StatelessWidget {
                     color: context.primaryColor,
                     textStyle: boldTextStyle(color: Colors.white),
                     shapeBorder: RoundedRectangleBorder(borderRadius: radius(10)),
-                    onTap: () {
-                      launch("https://codecanyon.net/item/prokit-flutter-app-ui-design-templete-kit/25787190?s_rank=19");
-                    },
+                    // onTap: () {
+                    //   launch("https://codecanyon.net/item/prokit-flutter-app-ui-design-templete-kit/25787190?s_rank=19");
+                    // },
                   )
                 ],
               ),
